@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Select Cruise Bike</title>
+    <link rel="stylesheet" type="text/css" href="../css/wheelCheck.css">
+    <script src="../javascript/cruiserbikes.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Select Model</h1>
+    </center>
+
+    <form id="bikeform"> 
+      
+        <input type="radio" id="harleydavidson" name="cruisertype" value="Harley Davidson">
+        <label for="harleydavidson">Harley Davidson</label><br><br>
+        <input type="radio" id="reclassic350" name="cruisertype" value="Royal Enfield Classic 350">
+        <label for="reclassic350">Royal Enfield Classic 350</label><br><br>
+        <input type="radio" id="remeteor" name="cruisertype" value="Royal Enfield Meteor">
+        <label for="remeteor">Royal Enfield Meteor</label><br><br>
+        
+        <button type="button" onclick="goBack()">Prev</button>
+        <button type="button" value="Next" onclick="nextPage()">Next</button>
+      
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Name Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script src="../javascript/index.js"></script>
+</head>
+<body>
+    <center>
+    <h1>Enter Your Name</h1>
+    </center>
+
+    <form id="myForm">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required placeholder="Enter your first name" required oninput="checkNameInput()"> 
+
+        <br>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required oninput="checkNameInput()">
+
+        <br>
+        <button id='submitButton' type="submit" disabled>Submit</button>
+    </form>
+</body>
+</html>

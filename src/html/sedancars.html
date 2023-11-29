@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Select Suv type Cars</title>
+    <link rel="stylesheet" type="text/css" href="../css/wheelCheck.css">
+    <script src="../javascript/sedancars.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Select Model</h1>
+    </center>
+
+    <form method="get"> 
+      
+        <input type="radio" id="toyoto" name="sedantype" value="Toyoto Camry">
+        <label for="toyoto">Toyoto Camry</label><br><br>
+        <input type="radio" id="hyundai" name="sedantype" value="Hyundai Verna">
+        <label for="hyundai">Hyundai Verna</label><br><br>
+        <input type="radio" id="tata" name="sedantype" value="Tata Tigor">
+        <label for="tata">Tata Tigor</label><br><br>
+        
+        <button type="button" onclick="goBack()">Prev</button>
+        <button type="button" value="Next" onclick="nextPage()">Next</button>
+      
+    </form>

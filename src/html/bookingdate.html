@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Select Booking Date</title>
+    <link rel="stylesheet" type="text/css" href="../css/bookingdate.css">
+    <script src="../javascript/bookingdate.js"></script>
+</head>
+<body>
+   
+    <center>
+        <h1>Select Date</h1>
+    </center>
+   
+
+    <form id="bookingform"> 
+      
+        <label for="StartDate">Start Date</label><br>
+        <input type="date" id="StartDate" name="StartDate" required oninput="checkInput()" > 
+
+        <br><br>
+
+        <label for="End Date">End Date</label><br>
+        <input type="date" id="EndDate" name="EndDate" required oninput="checkInput()"> 
+
+        <br><br>
+
+        <button type="button" onclick="goBack()">Back</button>
+        <input type="submit" id="submitButton" value="Submit" disabled>
+      
+    </form>
+    
+</body>
+</html>

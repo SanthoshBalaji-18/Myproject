@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Select Suv type Cars</title>
+    <link rel="stylesheet" type="text/css" href="../css/wheelCheck.css">
+    <script src="../javascript/suvcars.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Select Model</h1>
+    </center>
+
+    <form method="get"> 
+      
+        <input type="radio" id="toyoto" name="suvtype" value="Toyoto Fortuner">
+        <label for="toyoto">Toyoto Fortuner</label><br><br>
+        <input type="radio" id="hyundai" name="suvtype" value="Hyundai Creta">
+        <label for="hyundai">Hyundai Creta</label><br><br>
+        <input type="radio" id="tata" name="suvtype" value="Tata Nexon">
+        <label for="tata">Tata Nexon</label><br><br>
+        
+        <button type="button" onclick="goBack()">Prev</button>
+        <button type="button" value="Next" onclick="nextPage()">Next</button>
+      
+    </form>
